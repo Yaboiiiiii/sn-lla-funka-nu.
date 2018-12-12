@@ -1,15 +1,14 @@
 word = (input("Type the word you want encrypted here:"))
-key = 12
+key = (int(input("Type your wanted key:")))
 letters = []
 crypt = []
 choice = 0
 
 
-
 while choice != 3:
     print("1.Kryptera")
     print("2.decryptera")
-    choice = int(input()) 
+    choice = int(input())
     
     
 
